@@ -13,3 +13,7 @@ let btnAjouter = document.querySelector(".ajouter");
 
 // Affiche le contenu des variables dans la console
 console.log(paraphs, btnAjouter);
+
+btnAjouter.addEventListener("click", () => {
+  console.log("Ajouter");
+});
