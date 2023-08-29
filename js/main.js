@@ -8,12 +8,11 @@
 "use strict";
 
 // Récuperer tout les paragraphes du document
-let paraphs = document.querySelectorAll("p");
 let btnAjouter = document.querySelector(".ajouter");
-
-// Affiche le contenu des variables dans la console
-console.log(paraphs, btnAjouter);
+let txtArticle = document.querySelector("#article");
+let ulArticles = document.querySelector("ul.articles");
 
 btnAjouter.addEventListener("click", () => {
-  console.log("Ajouter");
+  ulArticles.innerHTML += "<li>" + txtArticle.value + "</li>";
+  txtArticle.value = "";
 });
