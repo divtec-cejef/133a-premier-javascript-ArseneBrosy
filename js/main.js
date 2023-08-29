@@ -7,6 +7,9 @@
 
 "use strict";
 
-let msg = "Bonjour";
+// Récuperer tout les paragraphes du document
+let paraphs = document.querySelectorAll("p");
+let btnAjouter = document.querySelector(".ajouter");
 
-console.log(msg);
+// Affiche le contenu des variables dans la console
+console.log(paraphs, btnAjouter);
