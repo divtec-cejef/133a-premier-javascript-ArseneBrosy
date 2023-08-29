@@ -5,8 +5,8 @@
  * @since   2023-08-29
  */
 
+'use strict';
 
-
-let msg = "Bonjour";
+let msg = 'Bonjour';
 
 console.log(msg);
